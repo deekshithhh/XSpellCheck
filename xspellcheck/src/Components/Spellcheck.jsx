@@ -33,7 +33,7 @@ export default function Xspellcheck() {
     <div>
       <h1>Spell Check and Auto-Correction</h1>
       <textarea placeholder="Enter text..." onChange={handlechange}></textarea>
-      {suggestedword && <div>Did you mean: {suggestedword}</div>}
+      {suggestedword && <div>Did you mean: {suggestedword}?</div>}
     </div>
   );
 }
